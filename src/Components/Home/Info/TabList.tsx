@@ -88,7 +88,7 @@ export default function BasicTabs() {
                     </div>
                 </div>
                 <div className="right">
-                    <img src="student.png" alt="" />
+                    <img src="employee.png" alt="" />
                 </div>
             </div>
       </TabPanel>
