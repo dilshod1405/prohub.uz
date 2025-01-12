@@ -13,6 +13,8 @@ import {BrowserRouter} from "react-router-dom";
 import AOS from "aos";
 AOS.init();
 
+
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );

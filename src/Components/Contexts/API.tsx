@@ -7,6 +7,7 @@ const API = axios.create({
   withCredentials: true, 
   
 });
+console.log(API.defaults.baseURL);
 
 API.interceptors.request.use((config) => {
   const csrfToken = getCSRFToken();
@@ -16,5 +17,4 @@ API.interceptors.request.use((config) => {
   }
   return config;
 });
-
 export default API;
