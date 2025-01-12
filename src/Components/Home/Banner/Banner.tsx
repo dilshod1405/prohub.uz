@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import './banner.scss'
 import { Container, Box } from '@mui/material'
-import CodeIcon from '@mui/icons-material/Code';
+import DataObjectIcon from '@mui/icons-material/DataObject';
 import ArchitectureIcon from '@mui/icons-material/Architecture';
 import { motion } from "motion/react"
 import buttons from '../../Constants/Buttons/Buttons';
@@ -13,7 +13,7 @@ const Banner:React.FC = () => {
   const specialities = [
     {
       name: <div data-aos="fade-down" dara-aos-duration="2000" className="name"><h1><span>Bilimga</span> tikilgan sarmoya <span>Kelajakka</span> tikilgan sarmoyadir</h1></div>,
-      src: "banner.png",
+      src: "https://png.pngtree.com/png-clipart/20230825/original/pngtree-business-team-character-having-finance-management-creative-ideas-picture-image_8723572.png",
       description: "prohub platformasi zamonaviy kasblarni arzon va sifatli tarzda o'rgatish maqsadida ishlab chiqilgan.",
       buttons: <div className='menus'>
         <p>Dasturlash</p>
@@ -24,8 +24,8 @@ const Banner:React.FC = () => {
       button: <div className='button'>{buttons.start}</div>
     },
     {
-      name: <div data-aos="fade-down" dara-aos-duration="2000" className='name'><CodeIcon className='icons'/> <h1><span>Dasturlash</span> kurslari</h1></div>,
-      description: "Dasturlash sohasi bugungi kunda eng yuqori talab va maoshga ega sohalardan biri hisoblanadi. Shu sababli uni o'rganuvchilar soni kundan kunga ortib bormoqda.",
+      name: <div data-aos="fade-down" dara-aos-duration="2000" className='name'><DataObjectIcon className='icons'/> <h1><span>Dasturlash</span> kurslari</h1></div>,
+      description: "Dasturlash sohasi bugungi kunda eng yuqori talab va maoshga ega sohalardan biri hisoblanadi. Shu sababli uni o'rganuvchilar soni kundan kunga ortib bormoqda. Nafaqat davlat tashkilotlari balki yangi tashkil qilinayotgan turli start up loyihalar ham bugungi kunda dasturchilarga talabi baland.",
       src: "banner2.png",
       button: <div className='button'>{buttons.start}</div>,
       buttons: <div className='menus'>
@@ -36,7 +36,7 @@ const Banner:React.FC = () => {
     },
     {
       name: <div data-aos="fade-down" dara-aos-duration="2000" className="name"><ArchitectureIcon className='icons'/> <h1><span>Arxitektura </span>kurslari</h1></div>,
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+      description: "Mamlakatimizda amalga oshirilayotgan ko'plab qurilishlarning amalga oshirilishi hamda Yangi Toshkent mavzesi kabi yirik loyihalar Arxitektura sohasiga qiziquvchilar sonini oshirmoqda. Prohub orqali ushbu sohaga ilk qadamlarni qoyib yuksak natijalarga erishing.",
       src: "arch.png",
       button: <div className='button'>{buttons.start}</div>,
       buttons: <div className='menus'>
@@ -54,8 +54,8 @@ const Banner:React.FC = () => {
       setTimeout(() => {
         setCurrentIndex((currentIndex + 1) % specialities.length);
         setFade(false);
-      }, 950);
-    }, 4000);
+      }, 1000);
+    }, 6000);
 
     return () => clearInterval(interval);
   }, [currentIndex, fade, specialities.length]);

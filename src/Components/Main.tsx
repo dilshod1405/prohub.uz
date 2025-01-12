@@ -1,11 +1,11 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom';
-import HomePage from './HomePage';
-import Login from '../Authentication/Login/Login';
-import { AuthProvider } from '../Contexts/Auth';
-import PrivateRoute from '../Contexts/PrivateRoute';
-import AdminDashboard from '../Admin/Dashboard/AdminDashboard';
-import ClientDashboard from '../Client/ClientDashboard';
+import HomePage from './Home/HomePage';
+import Login from './Authentication/Login/Login';
+import { AuthProvider } from './Contexts/Auth';
+import PrivateRoute from './Contexts/PrivateRoute';
+import AdminDashboard from './Admin/Dashboard/AdminDashboard';
+import ClientDashboard from './Client/Dashboard/ClientDashboard';
 
 
 const Main:React.FC = () => {

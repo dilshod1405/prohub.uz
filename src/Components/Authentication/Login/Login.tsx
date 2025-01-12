@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState} from 'react'
 import { initializeCSRF } from '../../Contexts/csrf_utils'
 import { Box, Container } from '@mui/material'
 import TextField from '@mui/material/TextField';
@@ -45,7 +45,7 @@ const Login:React.FC = () => {
       }
     } catch (error) {
       console.error(error);
-      setError('Invalid username or password');
+      setError('login yoki parol xato !');
     }
     setLoader(false);
   };
