@@ -90,7 +90,7 @@ const Header:React.FC = () => {
               {user?.is_staff === true && <Link className='linker animate__animated animate__fadeInLeft' to="/admin-dashboard">{user.first_name} {user.last_name}</Link>}
               {user?.is_staff === false && <Link className='linker animate__animated animate__fadeInLeft' to="/client-dashboard">{user.first_name} {user.last_name}</Link>}
               {!user && <div style={{display: "flex", alignItems: "center"}}><Link className='linker animate__animated animate__zoomIn' to="/login">{buttons.login}</Link></div>}
-              {(user?.photo == null && user) && <AccountCircleIcon style={{width: "50px", height: "50px", marginLeft: "10px",color: "hsla(245, 82%, 67%, 1)"}}/>}
+              {(user?.photo == null && user) && <Link to={"/login"}><AccountCircleIcon style={{width: "50px", height: "50px", marginLeft: "10px",color: "hsla(245, 82%, 67%, 1)"}}/></Link>}
               {user?.photo != null && <Avatar src={user?.photo} style={{width: "50px", height: "50px", marginLeft: "10px"}}/>}
             </Box>
           </Grid>
