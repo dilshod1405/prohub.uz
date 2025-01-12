@@ -1,0 +1,32 @@
+.icon{
+    margin-right: 10px;
+}
+
+#login{
+    background: linear-gradient(90deg, hsla(270, 94%, 81%, 1) 0%, hsla(245, 82%, 67%, 1) 100%);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    color: #ffffff;
+    border-radius: 15px;
+
+    &:hover{
+        box-shadow: rgba(0, 0, 0, 0.452) 0px 10px 36px 0px, rgba(0, 0, 0, 0.123) 0px 0px 0px 1px;
+    }
+}
+
+#register{
+    border-radius: 15px;
+    background: linear-gradient(90deg, hsla(278, 100%, 85%, 1) 0%, hsla(278, 62%, 55%, 1) 100%);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    &:hover{
+        box-shadow: rgba(0, 0, 0, 0.452) 0px 10px 36px 0px, rgba(0, 0, 0, 0.123) 0px 0px 0px 1px;
+    }
+}
+
+#courses{
+    border-radius: 15px;
+    background: linear-gradient(90deg, #64A1FF 0%, #8BF 100%);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    &:hover{
+        box-shadow: rgba(0, 0, 0, 0.452) 0px 10px 36px 0px, rgba(0, 0, 0, 0.123) 0px 0px 0px 1px;
+    }
+}

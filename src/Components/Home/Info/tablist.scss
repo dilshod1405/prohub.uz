@@ -1,0 +1,46 @@
+.tablist{
+    background-color: #ffffff6e;
+    border-radius: 20px;
+    height: 500px;
+
+    .head{
+        background-color: #ffffff91;
+        border-radius: 20px;
+
+    }
+
+    .box{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 20px;
+
+        .left{
+            width: 50%;
+            
+            .text{
+                margin-top: 50px;
+                h2{
+                    font-size: 35px;
+                    color: #86C5FC;
+                }
+                p{
+                    font-size: 20px;
+                    margin-top: 20px;
+                }
+
+                .button{
+                    margin-top: 25px;
+                }
+            }
+        }
+        .right{
+            width: 50%;
+            img{
+                width: 500px;
+                height: 400px;
+                margin: auto;
+                display: block;
+            }
+        }
+    }
+}

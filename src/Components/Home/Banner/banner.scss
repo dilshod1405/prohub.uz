@@ -1,0 +1,80 @@
+.banner{
+    width: 100%;
+    padding-top: 1%;
+    height: 600px;
+
+    .content{
+        display: flex;
+        transition: opacity 1s ease-in-out;
+
+        &.fade-out {
+            opacity: 0;
+          }
+
+        &.fade-in {
+        opacity: 1;
+        }
+
+        .left{
+            float: left;
+            width: 70%;
+        
+            .name{
+                display: flex;
+                align-items: center;
+
+                h1{
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 56px;
+                    text-shadow: 0px 4px 4px rgba(10, 62, 129, 0.247);
+                    
+                    span{
+                        color: hsla(245, 82%, 67%, 1);
+                    }
+                }
+                .icons{
+                    color: hsla(245, 82%, 67%, 1);
+                    font-size: 70px;
+                }
+            }
+
+            p{
+                font-size: 20px;
+                margin-top: 30px;
+            }
+
+            .menus{
+                margin-top: 20px;
+                display: flex;
+                align-items: center;
+
+                p{
+                    font-size: 20px;
+                    margin-right: 20px;
+                    background-color: #fac26d65; 
+                    padding: 10px;
+                    border-radius: 10px;
+                }
+            }
+
+            .button{
+                margin-top: 50px;
+                display: flex;
+                align-items: center;
+           
+            }
+        }
+
+        .right{
+            width: 50%;
+            img{
+                width:550px;
+                height: 450px;
+                margin: auto;
+                display: block;
+                
+            }
+        }
+    }
+}
