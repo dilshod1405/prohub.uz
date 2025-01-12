@@ -24,6 +24,15 @@
         list-style: none;
         margin-right: 20px;
 
+        .linker{
+            text-decoration: none;
+            background-color: hsla(245, 82%, 67%, 1);
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 15px;
+            transition: 0.4s;
+        }
+
         .link{
             text-decoration: none;
             color: #000000dc;

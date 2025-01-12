@@ -11,6 +11,7 @@ const buttons = {
     register: <Link to='/register'><Button variant="contained" id='register'><HowToRegIcon className='icon'/> Ro'yxatdan o'tish</Button></Link>,
     start: <Link to='/register'><Button variant="contained" id='register'><NotStartedIcon className='icon'/> Qadamni boshlash</Button></Link>,
     courses: <Link to='/courses'><Button variant="contained" id='courses'><SmartDisplayIcon className='icon'/> Kurslarimiz</Button></Link>,
+    enter: <Button type='submit' variant="contained" id='enter'><LoginIcon className='icon'/> Kirish</Button>
 }
 
 export default buttons;

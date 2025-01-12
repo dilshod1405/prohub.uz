@@ -30,3 +30,13 @@
         box-shadow: rgba(0, 0, 0, 0.452) 0px 10px 36px 0px, rgba(0, 0, 0, 0.123) 0px 0px 0px 1px;
     }
 }
+
+#enter{
+    border-radius: 15px;
+    font-size: 16px;
+    background: linear-gradient(90deg, #00D2D3 0%, #00b3d3 100%);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    &:hover{
+        box-shadow: rgba(0, 0, 0, 0.308) 0px 10px 36px 0px, rgba(0, 0, 0, 0.123) 0px 0px 0px 1px;
+    }
+}

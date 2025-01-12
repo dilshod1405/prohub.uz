@@ -1,0 +1,84 @@
+.login{
+    width: 100%;
+    padding-top: 6%;
+    .content{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+        background-color: #ffffff6e;
+        border-radius: 30px;
+        height: 620px;
+
+        .left{
+            width: 50%;
+            h2{
+                font-size: 40px;
+                text-align: center;
+                margin-top: 60px;
+                color: #00D2D3;
+            }
+
+            .form{
+                display: block;
+                margin: auto;
+                width: 70%;
+                margin-top: 50px;
+                padding: 20px;
+                height: 320px;
+                background-color: #ffffff91;
+                border-radius: 30px;
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 20px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+                opacity: 0.75;
+
+                .ask{
+                    margin-top: 20px;
+                    font-size: 18px;
+                    width: 95%;
+                }
+
+                .error{
+                    color: red;
+                    font-size: 14px;
+                    margin-top: 10px;
+                }
+
+                .button{
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 40px;
+                }
+
+                .links{
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 50px;
+
+                    .link{
+                        text-decoration: none;
+                        margin: 0px 10px;
+                        color: #00D2D3;
+                        font-size: 16px;
+                        font-weight: bold;
+
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+
+        .right{
+            width: 50%;
+            background-color: #ffffff91;
+            border-radius: 30px;
+            padding: 20px;
+            background-image: url(https://i.pinimg.com/736x/9d/fc/ff/9dfcff5d30471d9c8c9dc22641e1b898.jpg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 20px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+            opacity: 0.75;
+        }
+    }
+}
