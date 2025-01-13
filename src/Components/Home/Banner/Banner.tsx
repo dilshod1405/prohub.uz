@@ -3,7 +3,6 @@ import './banner.scss'
 import { Container, Box } from '@mui/material'
 import DataObjectIcon from '@mui/icons-material/DataObject';
 import ArchitectureIcon from '@mui/icons-material/Architecture';
-import { motion } from "motion/react"
 import buttons from '../../Constants/Buttons/Buttons';
 
 const Banner:React.FC = () => {
@@ -13,7 +12,7 @@ const Banner:React.FC = () => {
   const specialities = [
     {
       name: <div data-aos="fade-down" dara-aos-duration="2000" className="name"><h1><span>Bilimga</span> tikilgan sarmoya <span>Kelajakka</span> tikilgan sarmoyadir</h1></div>,
-      src: "https://png.pngtree.com/png-clipart/20230825/original/pngtree-business-team-character-having-finance-management-creative-ideas-picture-image_8723572.png",
+      src: "banner.png",
       description: "prohub platformasi zamonaviy kasblarni arzon va sifatli tarzda o'rgatish maqsadida ishlab chiqilgan.",
       buttons: <div className='menus'>
         <p>Dasturlash</p>
@@ -63,7 +62,7 @@ const Banner:React.FC = () => {
     return (
       <div className='banner'>
         <Container maxWidth="xl">
-        <motion.div initial={{ x: "0%" }} animate={{ y: "calc(4vw - 3%)" }} className='box animate__animated animate__fadeIn'>
+        <div className='box animate__animated animate__fadeIn'>
           <div className={`content  ${fade ? "fade-out" : "fade-in"}`}>
             <Box className='left'>
               {specialities[currentIndex].name}
@@ -75,7 +74,7 @@ const Banner:React.FC = () => {
               <img src={specialities[currentIndex].src} alt="" data-aos="zoom-in" data-aos-duration="1500"/> 
             </Box>
           </div>
-        </motion.div>
+        </div>
         </Container>
       </div>
     )

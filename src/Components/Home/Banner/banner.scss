@@ -1,8 +1,7 @@
 .banner{
     width: 100%;
-    padding-top: 1%;
-    height: 600px;
-
+    margin-top: 2%;
+    margin-bottom: 2%;
     .content{
         display: flex;
         transition: opacity 1s ease-in-out;
@@ -16,7 +15,6 @@
         }
 
         .left{
-            float: left;
             width: 70%;
         
             .name{
